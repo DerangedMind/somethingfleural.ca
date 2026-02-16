@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(236, 210, 134);
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(45, 45, 42);
+}
+
+header .splash-box {
+    text-align: center;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 2000px inset;
+    background-image: url("./IMG_1165.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 0 2rem 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    color: rgb(52, 101, 155);
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 3.5rem);
+}
+
+header h2 {
+    font-size: 0.875rem;
+    word-wrap: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.email {
+    margin-top: 2rem;
+}
+
+.email a {
+    text-decoration: none;
+    color: rgb(45, 45, 42);
+}
+
+.insta-link {
+    margin: 1rem auto;
+    width: auto;
+}
+
+.insta-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.25rem;
+    background-color: rgb(52, 101, 155);
+    border-radius: 50%;
+}
+
+.insta-icon path {
+    fill: rgb(236, 210, 134);
+}
